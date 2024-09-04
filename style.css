@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: blue;
+    background-image: url(abstract-gray-mosaic-polygon-surfaced-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.container {
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+button {
+    margin: 30px 0 30px 0;
+    width: 60px;
+    height: 70px;
+    font-size: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    transition: opacity 0.5s;
+}
+
+button:hover {
+    opacity: 0.7;
+}
+
+button:active {
+    opacity: 0.5;
+}
+
+p {
+    line-height: 35px;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+#rock {
+    background-color: rgb(140, 236, 130);
+}
+
+#paper {
+    background-color: rgb(14, 196, 241);
+    margin: 0 10px;
+}
+
+#scissors {
+    background-color: blueviolet;
+}
+
+.myScore span {
+    color: blue;
+    font-size: 20px;
+}
+
+.scoringMachine span {
+    color: red;
+    font-size: 20px;
+}
